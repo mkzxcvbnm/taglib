@@ -1,6 +1,5 @@
 {
     "plugins": [ "theme-api" ],
-    "language": "zh-hans",
     "pluginsConfig": {
         "theme-api": {
             "theme": "dark",
