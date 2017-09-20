@@ -19,9 +19,19 @@ list
 {% sample lang="php" %}
 **例子**
 
->下列代码将获取到
+```html
+<yhcms:list cid="1" titlelen="20" orderby="sort desc" keyword="product" limit="10" pagesize="10" flag="c">
+<li data-id="{$list.id}">
+    <a href="{$list.url}"><img src="{$list.litpic}" alt="{$list.title}"></a>
+    <a href="{$list.url}">{$list.title}{$list.publishtime|date='Y-m-d',###}</a>
+    <p>{$list.description|str2sub=20, true}</p>
+</li>
+</yhcms:list>
+```
 
->栏目ID为1
+>例子参数含义
+
+>`cid="1"`栏目ID为1
 * *指定内容信息所属的栏目具体ID值 或者 传入`$cid`将获取当前页面所属栏目ID*
    
 >标题截取20个字符
@@ -41,13 +51,5 @@ list
 >只显示后台推荐的信息
 
 
-```html
-<yhcms:list cid="1" titlelen="20" orderby="sort desc" keyword="product" limit="10" pagesize="10" flag="c">
-<li data-id="{$list.id}">
-    <a href="{$list.url}"><img src="{$list.litpic}" alt="{$list.title}"></a>
-    <a href="{$list.url}">{$list.title}{$list.publishtime|date='Y-m-d',###}</a>
-    <p>{$list.description|str2sub=20, true}</p>
-</li>
-</yhcms:list>
-```
+
 {% endmethod %}
