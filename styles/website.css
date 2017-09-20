@@ -1,6 +1,12 @@
 .book .book-summary .chapter.expanded > .articles {
     transition: 5s;
 }
-.book.color-theme-3 .book-body section .api-method-code .api-method-sample p code {
+.book.color-theme-3 .book-body section .api-method-code .api-method-sample p code:first-child {
     color: #81a2be;
+}
+.book.two-columns .api-method .api-method-definition {
+    width: 60%;
+}
+.book.two-columns .api-method .api-method-code {
+    width: 40%;
 }
