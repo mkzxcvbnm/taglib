@@ -1,6 +1,6 @@
 .book .book-summary .chapter.expanded > .articles {
     transition: 5s;
 }
-.api-method-sample .book.color-theme-3 .book-body section .api-method-code code {
+.book.color-theme-3 .book-body section .api-method-code .api-method-sample code {
     color: #81a2be;
 }
