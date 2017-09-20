@@ -19,6 +19,8 @@ list
 {% sample lang="php" %}
 **例子**
 
+>下列代码将获取到 栏目ID为1 标题截取20个字符 按照sort(排序字段)的倒序 调取product(产品) 显示10条信息 每10条分成一页 只显示后台推荐的信息
+
 ```html
 <yhcms:list cid="1" titlelen="20" orderby="sort desc" keyword="product" limit="10" pagesize="10" flag="c">
 <li data-id="{$list.id}">
