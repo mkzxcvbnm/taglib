@@ -19,7 +19,16 @@ list
 {% sample lang="php" %}
 **例子**
 
->下列代码将获取到 栏目ID为1 标题截取20个字符 按照sort(排序字段)的倒序 调取product(产品) 显示10条信息 每10条分成一页 只显示后台推荐的信息
+>下列代码将获取到
+
+>栏目ID为1    *指定内容信息所属的栏目具体ID值 或者 传入$cid将获取当前页面所属栏目ID*
+标题截取20个字符
+按照sort(排序字段)的倒序    *其他可排序字段例如id,publishtime等*
+调取product(产品) *该功能主要用于搜索列表分类展示*
+显示10条信息    *当pagesize参数存在时该参数无效*
+每10条分成一页    *与{$page}配合使用*
+只显示后台推荐的信息    *通*
+
 
 ```html
 <yhcms:list cid="1" titlelen="20" orderby="sort desc" keyword="product" limit="10" pagesize="10" flag="c">
