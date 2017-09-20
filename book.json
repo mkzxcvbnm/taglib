@@ -19,9 +19,6 @@
     "theme-default": {
         "showLevel": true
     },
-    "styles": {
-        "mk": "./css/mk.scss"
-    },
     "pluginsConfig": {
         "theme-api": {
             "theme": "dark",
