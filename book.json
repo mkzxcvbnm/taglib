@@ -13,7 +13,8 @@
         "tbfed-pagefooter",
         "editlink",
         "styles-less",
-        "disqus"
+        "disqus",
+        "collapsible-chapters"
     ],
     "theme-default": {
         "showLevel": true
