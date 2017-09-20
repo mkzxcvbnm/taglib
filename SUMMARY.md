@@ -4,10 +4,6 @@
 
 ## 手册
 * [config](taglib/config.md)
-    - [config](taglib/config.md)
-    - [config](taglib/config.md)
-    - [config](taglib/config.md)
-
 * [list](taglib/list.md)
 * [link](taglib/link.md)
 * [banner](taglib/banner.md)
