@@ -8,11 +8,11 @@
 |参数名|必选|类型|默认值|含义|说明|
 |:---:|:--:|:--:|:--:|:--:|:--:|
 |cid|是|number|`1`|栏目ID|后台栏目设置对应的ID `$cid`-当前栏目id|
-|titlelen|否|number|标题长度||
+|titlelen|否|number|`0`|标题长度|`0`-不截取|
 |orderby|否|string|`id desc`|排序|`asc`-正序 `desc`-倒序|
-|keyword|否|string|关键词|模糊查询title(标题)字段|
+|keyword|否|string|`空`|关键词|模糊查询title(标题)字段|
 |limit|否|number|`10`|显示数量|当设置了`pagesize`时,该参数无效|
-|pagesize|否|number|`10`|分页数|配合`{$page}`使用,生成分页|
+|pagesize|否|number|`0`|分页数|配合`{$page}`使用,生成分页|
 |flag|否|bool|`false`|标示|`true`-推荐 `false`-全部|
 
 {% sample lang="php" %}
@@ -30,7 +30,7 @@
 
 >例子参数含义
 
->`cid="1"`获取栏目ID为1的所有信息
+>`cid="1"`获取栏目ID为1的信息
 
 >`titlelen="20"`标题截取20个字符
 
