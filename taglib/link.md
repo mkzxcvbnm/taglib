@@ -16,7 +16,7 @@
 **例子**
 
 ```html
-<yhcms:flink type="1" limit="35" orederby="sort desc" flag="1" >
+<yhcms:flink type="1" limit="35" orederby="sort desc" flag="c" >
   <li>
   <a href="{$flink.url}">{$flink.name}</a>
   </li>
@@ -34,6 +34,6 @@
 >`limit="10"`显示10条信息
 * *当`pagesize`参数存在时该参数无效*
 
->`flag="1"`只显示后台推荐的信息
+>`flag="c"`只显示后台推荐的信息
 
 {% endmethod %}
