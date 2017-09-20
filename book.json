@@ -12,7 +12,8 @@
         "anchor-navigation-ex",
         "tbfed-pagefooter",
         "editlink",
-        "styles-less"
+        "styles-less",
+        "disqus"
     ],
     "theme-default": {
         "showLevel": true
@@ -42,6 +43,9 @@
         "editlink": {
             "base": "https://www.gitbook.com/book/mkzxcvbnm/taglib/edit",
             "label": ""
+        },
+        "disqus": {
+            "shortName": "https-mkzxcvbnm-gitbooks-io-taglib-content"
         }
     }
 }
