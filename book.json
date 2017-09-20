@@ -12,7 +12,7 @@
         "anchor-navigation-ex",
         "tbfed-pagefooter",
         "editlink",
-        "styles-sass"
+        "styles-less"
     ],
     "theme-default": {
         "showLevel": true
