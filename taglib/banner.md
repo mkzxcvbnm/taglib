@@ -15,22 +15,22 @@
 
 |字段名|别名|
 |:----:|:--:|
-|{$flink.id}|ID|
-|{$flink.title}|幻灯片名称|
-|{$flink.pic}|主图片|
-|{$flink.fpic}|副图片|
-|{$flink.url}|链接|
-|{$flink.sort}|排序|
-|{$flink.type}|类型|
+|{$banner.id}|ID|
+|{$banner.title}|幻灯片名称|
+|{$banner.pic}|主图片|
+|{$banner.fpic}|副图片|
+|{$banner.url}|链接|
+|{$banner.sort}|排序|
+|{$banner.type}|类型|
 
 {% sample lang="php" %}
 **例子**
 
 ```html
 <yhcms:banner type="1" limit="10" orderby="sort desc">
-  <li>
-    <a href="{$banner.url}"><img src="{$banner.pic}" alt="{$banner.title}"></a>
-  </li>
+<li>
+<a href="{$banner.url}"><img src="{$banner.pic}" alt="{$banner.title}"></a>
+</li>
 </yhcms:banner>
 ```
 
