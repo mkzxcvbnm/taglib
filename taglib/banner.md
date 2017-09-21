@@ -30,7 +30,6 @@
 <yhcms:banner type="1" limit="10" orderby="sort desc">
   <li>
     <a href="{$banner.url}"><img src="{$banner.pic}" alt="{$banner.title}"></a>
-    <a href="{$banner.url}">{$banner.title}</a>
   </li>
 </yhcms:banner>
 ```
