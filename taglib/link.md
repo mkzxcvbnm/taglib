@@ -16,21 +16,21 @@
 
 |字段名|别名|
 |:----:|:--:|
-|{$flink.id}|ID|
-|{$flink.title}|标题|
-|{$flink.pic}|图片|
-|{$flink.url}|链接|
-|{$flink.sort}|排序|
-|{$flink.type}|类型|
-|{$flink.area}|所属地区|
+|{$link.id}|ID|
+|{$link.title}|标题|
+|{$link.pic}|图片|
+|{$link.url}|链接|
+|{$link.sort}|排序|
+|{$link.type}|类型|
+|{$link.area}|所属地区|
 
 {% sample lang="php" %}
 **例子**
 
 ```html
-<yhcms:flink type="1" limit="35" orederby="sort desc" flag="1" >
-<a href="{$flink.url}"><img src="{$flink.litpic}" alt="{$flink.title}"></a>
-</yhcms:flink>
+<yhcms:link type="1" limit="35" orederby="sort desc" flag="1" >
+<a href="{$link.url}"><img src="{$link.litpic}" alt="{$link.title}"></a>
+</yhcms:link>
 ```
 
 例子参数含义
