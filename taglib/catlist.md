@@ -1,6 +1,6 @@
-# link
+# catlist
 
-> 友情链接
+> 栏目列表
 
 {% method %}
 **参数**
@@ -16,38 +16,57 @@
 
 |字段名|别名|
 |:----:|:--:|
-|{$flink.id}|ID|
-|{$flink.title}|标题|
-|{$flink.pic}|图片|
-|{$flink.url}|链接|
-|{$flink.sort}|排序|
-|{$flink.type}|类型|
-|{$flink.area}|所属地区|
+|{$catlist.title}|分类名称|
+|{$catlist.etitle}|别名|
+|{$catlist.subtitle}|副标题|
+|{$catlist.pid}|上级分类|
+|{$catlist.mid}|所属模型|
+|{$catlist.pic}|封面照片|
+|{$catlist.seo_title}|SEO标题|
+|{$catlist.seo_keyword}|SEO关键词|
+|{$catlist.seo_desc}|SEO描述|
+|{$catlist.jumpurl}|外部链接|
+|{$catlist.tpl_cover}|封面模版|
+|{$catlist.tpl_list}|列表模板|
+|{$catlist.tpl_show}|内容模版|
+|{$catlist.sort}|排序|
+|{$catlist.status}|状态|
+|{$catlist.target}|是否新窗口|
+|{$catlist.nav}|导航模式|
+|{$catlist.desc}|栏目简介|
+|{$catlist.content}|栏目内容|
+|{$catlist.cover}|栏目属性|
+
+**附加字段**
+
+|字段名|别名|
+|:----:|:--:|
+|{$catlist.child}|子栏目|
 
 {% sample lang="php" %}
 **例子**
 
 ```html
 <yunu:catlist cid="1" type="self" limit="20" flag="0">
-      <li>
-          <a href="{$catlist.url}">{$catlist.title}</a>
-          <volist name="catlist['child']" id="v">
-              <ul>
-                  <li><a href="{$v.id}">{$v.name}</a></li>
-              </ul>
-          </volist>
-      </li>
+<li>
+    <a href="{$catlist.url}">{$catlist.title}</a>
+    <volist name="catlist['child']" id="v">
+    <ul>
+        <li><a href="{$v.id}">{$v.title}</a></li>
+    </ul>
+    </volist>
+</li>
 </yunu:catlist>
 ```
 
 例子参数含义
 
->`type="1"`类型为"首页"
+>`cid="1"`栏目id为1
 
->`limit="35"`显示35条信息
+>`type="self"`同级栏目
 
->`orderby="sort desc"`按照sort(排序字段)的倒序
+>`limit="20"`显示20条信息
 
->`flag="1"`包含带图片的友情链接
+>`flag="0"`排除外部链接和单页
 
 {% endmethod %}
