@@ -52,7 +52,7 @@
     <a href="{$catlist.url}">{$catlist.title}</a>
     <volist name="catlist['child']" id="v">
     <ul>
-        <li><a href="{$v.id}">{$v.title}</a></li>
+        <li><a href="{$v.url}">{$v.title}</a></li>
     </ul>
     </volist>
 </li>
