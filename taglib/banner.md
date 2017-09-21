@@ -22,7 +22,6 @@
 |{$flink.url}|链接|
 |{$flink.sort}|排序|
 |{$flink.type}|类型|
-|{$flink.area}|所属地区|
 
 {% sample lang="php" %}
 **例子**
@@ -43,7 +42,5 @@
 >`limit="10"`显示10条信息
 
 >`orderby="sort desc"`按照sort(排序字段)的倒序
-
->`flag="1"`包含带图片的友情链接
 
 {% endmethod %}
