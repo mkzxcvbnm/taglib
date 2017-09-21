@@ -14,6 +14,7 @@
 
 |字段名|别名|
 |:----:|:--:|
+|{$nav.id}|ID|
 |{$nav.title}|分类名称|
 |{$nav.etitle}|别名|
 |{$nav.subtitle}|副标题|
