@@ -9,7 +9,7 @@
 |:----:|:--:|:--:|:----:|:--:|
 |type|类型|number|`0`|`0`-全部 `1`-PC `2`-手机|
 |orderby|排序|string|`id desc`|`asc`-正序 `desc`-倒序|
-|limit|显示数量|number|`10`||
+|limit|显示数量|number|`10`|&nbsp;|
 
 **字段**
 
