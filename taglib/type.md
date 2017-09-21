@@ -13,6 +13,7 @@
 
 |字段名|别名|
 |:----:|:--:|
+|{$type.id}|ID|
 |{$type.title}|分类名称|
 |{$type.etitle}|别名|
 |{$type.subtitle}|副标题|
