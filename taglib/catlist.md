@@ -16,6 +16,7 @@
 
 |字段名|别名|
 |:----:|:--:|
+|{$catlist.id}|ID|
 |{$catlist.title}|分类名称|
 |{$catlist.etitle}|别名|
 |{$catlist.subtitle}|副标题|
