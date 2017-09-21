@@ -10,7 +10,7 @@
 |top|是否推荐|bool|`false`|`false`-全部 `true`-开启推荐|
 |con|独立内容|bool|`false`|`false`-全部 `true`-开启独立内容|
 |url|二级域名|bool|`false`|`false`-全部 `true`-开启二级域名|
-|limit|显示数量|number|`10`||
+|limit|显示数量|number|`10`|&nbsp;|
 
 **字段**
 
