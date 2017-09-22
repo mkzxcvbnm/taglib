@@ -18,9 +18,9 @@
 
 ## 函数方法
 * [function](taglib/function.md)
-    * [date](taglib/function.md)
-    * [str2sub](taglib/function.md)
-    * [str2arr](taglib/function.md)
+    * [date](taglib/function.md?id=date)
+    * [str2sub](taglib/function.md?id=str2sub)
+    * [str2arr](taglib/function.md?id=str2arr)
 
 
 
