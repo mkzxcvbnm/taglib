@@ -2,7 +2,7 @@
 
 * [概述](README.md)
 
-## 手册
+## 标签列表
 * [config](taglib/config.md)
 * [list](taglib/list.md)
 * [link](taglib/link.md)
@@ -15,4 +15,8 @@
 * [position](taglib/position.md)
 * [url](taglib/url.md)
 * [cwkeywords](taglib/cwkeywords.md)
+
+## 函数方法
+* [function](taglib/function.md)
+
 
