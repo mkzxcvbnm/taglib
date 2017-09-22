@@ -94,18 +94,9 @@
 
 >`flag="1"`显示设置为`推荐`的信息
 
-**例子字段处理函数解释**
+**例子涉及函数**
 
-```
-{$list.update_time|date='Y-m-d',###}
-```
-
->将`update_time`字段时间戳格式化 `Y`-年 `m`-月 `d`-日 `H`-时 `i`-分 `s`-秒
-
-```
-{$list.desc|str2sub=20, true}
-```
-
->截取简介20个字符超出部分显示为"..."
+* date方法 
+* str2sub方法
 
 {% endmethod %}
