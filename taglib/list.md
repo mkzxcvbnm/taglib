@@ -96,7 +96,7 @@
 
 **例子涉及函数**
 
-* date方法 
-* str2sub方法
+* [date方法](/taglib/function.md#date)
+* [str2sub方法](/taglib/function.md#str2sub)
 
 {% endmethod %}
