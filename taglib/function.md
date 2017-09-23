@@ -1,8 +1,8 @@
 # date
 
-> 时间戳格式化
-
 {% method %}
+
+> 时间戳格式化
 
 {% sample lang="php" %}
 **例子**
@@ -28,9 +28,9 @@
 
 # str2sub
 
-> 文字超出一定长度显示省略号
-
 {% method %}
+
+> 文字超出一定长度显示省略号
 
 {% sample lang="php" %}
 
@@ -56,9 +56,9 @@
 
 # str2arr
 
-> 分割字符串为数组
-
 {% method %}
+
+> 分割字符串为数组
 
 {% sample lang="php" %}
 **例子**
