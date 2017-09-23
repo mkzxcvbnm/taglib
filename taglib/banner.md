@@ -27,11 +27,11 @@
 **例子**
 
 ```html
-<yhcms:banner type="1" limit="10" orderby="sort desc">
+<yunu:banner type="1" limit="10" orderby="sort desc">
 <li>
 <a href="{$banner.url}"><img src="{$banner.pic}" alt="{$banner.title}"></a>
 </li>
-</yhcms:banner>
+</yunu:banner>
 ```
 
 例子参数含义

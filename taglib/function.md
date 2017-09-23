@@ -65,9 +65,9 @@
 **例子**
 
 ```html
-<yhcms:list cid="$cid">
+<yunu:list cid="$cid">
 {$list.update_time|date='Y-m-d H:i:s',###}
-</yhcms:list>
+</yunu:list>
 ```
 
 **解释**
@@ -102,9 +102,9 @@
 **例子**
 
 ```html
-<yhcms:list cid="$cid">
+<yunu:list cid="$cid">
 {$list.desc|str2sub=20, true}
-</yhcms:list>
+</yunu:list>
 ```
 
 **解释**

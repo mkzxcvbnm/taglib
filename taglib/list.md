@@ -69,13 +69,13 @@
 **例子**
 
 ```html
-<yhcms:list cid="1" titlelen="20" orderby="sort desc" keyword="yunu" limit="10" pagesize="10" flag="1">
+<yunu:list cid="1" titlelen="20" orderby="sort desc" keyword="yunu" limit="10" pagesize="10" flag="1">
 <li data-id="{$list.id}">
 <a href="{$list.url}"><img src="{$list.litpic}" alt="{$list.title}"></a>
 <a href="{$list.url}">{$list.title}{$list.update_time|date='Y-m-d',###}</a>
 <p>{$list.desc|str2sub=20, true}</p>
 </li>
-</yhcms:list>
+</yunu:list>
 ```
 
 **例子参数含义**
