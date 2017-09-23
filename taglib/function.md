@@ -75,7 +75,7 @@
 $content.mulimg|str2arr='***'
 ```
 
->使用`***`作为分隔符分割`$content.mulimg`字符串成数组 **!注意分隔符不能为竖线(|)**
+>使用`***`作为分隔符分割`$content.mulimg`字符串成数组 **!注意分隔符不能为竖线（|）**
 
 
 {% endmethod %}
