@@ -14,6 +14,7 @@
 |limit|显示数量|number|`10`|当设置了`pagesize`时,该参数无效|
 |pagesize|分页数|number|`0`|配合`{$page}`使用,生成分页|
 |flag|标示|bool|`false`|`true`-推荐 `false`-全部|
+|top |头条|number|`0`|`0`非头条 `1`-一级头条 ..... `9`-九级头条|
 
 **字段**
 
@@ -69,7 +70,7 @@
 **例子**
 
 ```html
-<yunu:list cid="1" titlelen="20" orderby="sort desc" keyword="yunu" limit="10" pagesize="10" flag="1">
+<yunu:list cid="1" titlelen="20" orderby="sort desc" keyword="yunu" limit="10" pagesize="10" flag="1" top="1">
 <li data-id="{$list.id}">
 <a href="{$list.url}"><img src="{$list.litpic}" alt="{$list.title}"></a>
 <a href="{$list.url}">{$list.title}{$list.update_time|date='Y-m-d',###}</a>
@@ -93,6 +94,8 @@
 >`pagesize="10"`每页显示10条信息
 
 >`flag="1"`显示设置为`推荐`的信息
+
+>`top="1"`筛选出一级头条信息
 
 **例子涉及函数**
 
