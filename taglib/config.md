@@ -35,6 +35,6 @@
 **例子**
 
 ```html
-<yunu:config name="seo_title"></yunu:config>
+<yunu:config name="seo_title">
 ```
 {% endmethod %}
