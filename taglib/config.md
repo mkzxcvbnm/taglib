@@ -24,8 +24,7 @@
 |site_logo|网站LOGO|同上|
 |site_copyright|版权信息|同上|
 |site_guide|是否开启引导页|同上|
-|theme_style|版权信息|同上|
-|site_copyright|版权信息|同上|
+|theme_style|模板编号|同上|
 |url_model|URL模式|**后台 > 常用菜单 > URL设置**|
 |wap_auto|手机自动跳转|**后台 > WAP设置 > 基本设置**|
 |wap_logo|手机网站LOGO|同上|
