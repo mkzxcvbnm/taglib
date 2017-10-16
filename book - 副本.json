@@ -1,0 +1,49 @@
+{
+    "title": "TagLib",
+    "author": "mk",
+    "description" : "Yunu TagLib",
+    "language": "zh-hans",
+    "plugins": [
+        "theme-api",
+        "github",
+        "book-summary-scroll-position-saver",
+        "expandable-chapters",
+        "splitter",
+        "anchor-navigation-ex",
+        "tbfed-pagefooter",
+        "editlink",
+        "styles-less",
+        "disqus",
+        "collapsible-chapters"
+    ],
+    "theme-default": {
+        "showLevel": true
+    },
+    "pluginsConfig": {
+        "theme-api": {
+            "theme": "dark",
+            "languages": [
+                {
+                    "lang": "php",
+                    "name": "php",
+                    "default": true
+                }
+            ]
+        },
+        "github": {
+            "url": "https://github.com/mkzxcvbnm/taglib"
+        },
+        "tbfed-pagefooter": {
+            "copyright":"yunu",
+            "modify_label": "该文件修订时间：",
+            "modify_format": "YYYY-MM-DD HH:mm:ss"
+        },
+        "editlink": {
+            "base": "https://www.gitbook.com/book/mkzxcvbnm/taglib/edit",
+            "label": ""
+        },
+        "disqus": {
+            "shortName": "https-mkzxcvbnm-gitbooks-io-taglib-content"
+        }
+    }
+}
