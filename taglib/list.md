@@ -14,7 +14,8 @@
 |limit|显示数量|number|`10`|当设置了`pagesize`时,该参数无效|
 |pagesize|分页数|number|`0`|配合`{$page}`使用,生成分页|
 |flag|标示|bool|`false`|`true`-推荐 `false`-全部|
-|top |头条|number|`0`|`0`非头条 `1`-一级头条 ..... `9`-九级头条|
+|top |头条|number|`0`|`0`-非头条 `1`-一级头条 ..... `9`-九级头条|
+|tag |标签|number|`0`|(内容详情页专属)`0`-不筛选 `1`-筛选条件增加当前详情的tag值|
 
 **字段**
 
@@ -67,12 +68,19 @@
 >**自定义模型字段在 后台 > 系统管理 > 模型管理 > 字段管理 中查看**
 
 {% sample lang="php" %}
-**例子**
+
+**完整例子**
+
+> 注意：例子包含所有参数只是为了说明展示 请根据实际需求选择需要的参数
+>
+>>不正确的参数可能导致程序报错
+>
+>>多余或组合错误的参数可能导致信息无法显示
 
 ```html
-<yunu:list cid="1" titlelen="20" orderby="sort desc" keyword="yunu" limit="10" pagesize="10" flag="1" top="1">
+<yunu:list cid="1" titlelen="20" orderby="sort desc" keyword="yunu" limit="10" pagesize="10" flag="1" top="1" tag="1">
 <li data-id="{$list.id}">
-<a href="{$list.url}"><img src="{$list.litpic}" alt="{$list.title}"></a>
+<a href="{$list.url}"><img src="{$list.pic}" alt="{$list.title}"></a>
 <a href="{$list.url}">{$list.title}{$list.update_time|date='Y-m-d',###}</a>
 <p>{$list.desc|str2sub=20, true}</p>
 </li>
@@ -96,6 +104,8 @@
 >`flag="1"`显示设置为`推荐`的信息
 
 >`top="1"`筛选出一级头条信息
+
+>`tag="1"`此属性只在详情页生效 筛选出与当前信息tag的所有信息
 
 **例子涉及函数**
 

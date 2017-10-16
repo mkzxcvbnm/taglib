@@ -29,7 +29,7 @@
 
 ```html
 <yunu:link type="1" limit="35" orederby="sort desc" flag="1" >
-<a href="{$link.url}"><img src="{$link.litpic}" alt="{$link.title}"></a>
+<a href="{$link.url}"><img src="{$link.pic}" alt="{$link.title}"></a>
 </yunu:link>
 ```
 

@@ -13,7 +13,6 @@
         "tbfed-pagefooter",
         "editlink",
         "styles-less",
-        "disqus",
         "collapsible-chapters"
     ],
     "theme-default": {
@@ -41,9 +40,6 @@
         "editlink": {
             "base": "https://www.gitbook.com/book/mkzxcvbnm/taglib/edit",
             "label": ""
-        },
-        "disqus": {
-            "shortName": "https-mkzxcvbnm-gitbooks-io-taglib-content"
         }
     }
 }
