@@ -20,7 +20,7 @@
 **例子**
 
 ```html
-<yunu:url name="home"></yunu:url>
+<yunu:url name="home">
 ```
 
 例子参数含义
