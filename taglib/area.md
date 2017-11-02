@@ -7,10 +7,12 @@
 
 |参数名|别名|类型|默认值|说明|
 |:----:|:--:|:--:|:----:|:--:|
+|pid|上级id|number|`0`|设置未指定pid时默认使用pid `0`-读取所有顶级地区|
 |top|是否推荐|bool|`false`|`false`-全部 `true`-开启推荐|
 |con|独立内容|bool|`false`|`false`-全部 `true`-开启独立内容|
 |url|二级域名|bool|`false`|`false`-全部 `true`-开启二级域名|
 |limit|显示数量|number|`10`|&nbsp;|
+|type|只读取当前地区信息|string|`空`|`空`-关闭 `current`-开启|
 
 **字段**
 
