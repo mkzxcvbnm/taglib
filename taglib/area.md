@@ -12,7 +12,7 @@
 |con|独立内容|bool|`false`|`false`-全部 `true`-开启独立内容|
 |url|二级域名|bool|`false`|`false`-全部 `true`-开启二级域名|
 |limit|显示数量|number|`10`|&nbsp;|
-|type|只读取当前地区信息|string|`空`|`空`-关闭 `current`-开启|
+|type|只读取当前地区信息|string|`group`|`group`-梯度显示 `current`-当前地区  `level`-平级|
 
 **字段**
 
@@ -31,7 +31,7 @@
 **例子**
 
 ```html
-<yunu:area top="1" con="1" url="1" limit="20">
+<yunu:area top="1" con="1" url="1" limit="20" type="group">
     <a href="{$area.url}">{$area.title}</a>
 </yunu:area>
 ```
@@ -45,5 +45,7 @@
 >`url="1"`筛选出后台设置为二级域名的
 
 >`limit="20"`显示20条信息
+
+>`type="group"`显示当前地区及子地区
 
 {% endmethod %}
