@@ -8,7 +8,7 @@
 |参数名|别名|类型|默认值|说明|
 |:----:|:--:|:--:|:----:|:--:|
 |typeid|栏目ID|number|`必填`|后台栏目ID 或者 `$cid`-当前栏目id|
-|type|类型|string|`son`|`son`-下级栏目 `self`-同级栏目 `top`-顶级栏目(此类型下cid可忽略)|
+|type|类型|string|`空`|`parent`-指定为typeid的顶级栏目|
 
 
 **字段**
@@ -41,7 +41,7 @@
 **例子**
 
 ```html
-<yunu:type typeid='21'>
+<yunu:type typeid='21' type="parent">
     <a href="{$type.url}">查看更多</a>
 </yunu:type>
 ```
@@ -49,4 +49,7 @@
 例子参数含义
 
 >`typeid="21"`获取栏目id为21的栏目信息
+
+>`type="parent"`类型为当前typeid栏目的顶级栏目
+
 {% endmethod %}
