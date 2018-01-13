@@ -3,6 +3,7 @@
 * [概述](README.md)
 
 ## 标签列表
+
 * [config](taglib/config.md)
 * [list](taglib/list.md)
 * [link](taglib/link.md)
@@ -18,10 +19,9 @@
 * [tag](taglib/tag.md)
 
 ## 函数方法
+
 * [function](taglib/function.md)
-    * [date](taglib/function.md#date)
-    * [str2sub](taglib/function.md#str2sub)
-    * [str2arr](taglib/function.md#str2arr)
-
-
+  * [date](taglib/function.md#date)
+  * [str2sub](taglib/function.md#str2sub)
+  * [str2arr](taglib/function.md#str2arr)
 
