@@ -11,7 +11,7 @@
 |orderby|||||
 |top |||||
 |pagesize|||||
-|limit|显示||||
+|limit|||||
 
 {% sample lang="php" %}
 **例子**
