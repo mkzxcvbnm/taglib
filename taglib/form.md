@@ -1,6 +1,6 @@
 #form
 
-> 表单
+> 表单 (需要程序版本1.0.6以上)
 
 {% method %}
 **参数**
@@ -9,7 +9,7 @@
 |:----:|:--:|:--:|:----:|:--:|
 |fid|表单ID|number|`空`|对应后台的表单ID|
 |orderby|排序|string|`无`||
-|top |推荐|number|`无`||
+|top |推荐|number|`无`|`0`-不推荐 `1`-推荐|
 |pagesize|分页|number|`无`||
 |limit|显示数量|number|`无`||
 
