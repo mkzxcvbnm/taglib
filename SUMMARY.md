@@ -19,6 +19,10 @@
 * [tag](taglib/tag.md)
 * [form](taglib/form.md)
 
+## 其他标签
+
+* [内容页相关](taglib/other.md)
+
 ## 函数方法
 
 * [function](taglib/function.md)
