@@ -16,7 +16,7 @@
 |flag|标示|bool|`false`|`true`-推荐 `false`-全部|
 |top|头条|number|`0`|`0`-非头条 `1`-一级头条 ..... `9`-九级头条|
 |tag|标签|string|`空`|增加LIST标签筛选条件，可直接输入中文，或使用"$content['tag']"使用当前详情页的|
-|sql|分组条件|string|`空`|例如`"131 and 132 and 133"`and/or 必须配合 field 标签组合使用|
+|sql|分类范围|string|`空`|例如`"131 and 132 and 133"`and/or 必须配合 field 标签组合使用|
 
 **字段**
 
