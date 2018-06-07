@@ -18,7 +18,7 @@
 |tag|标签|string|`空`|增加LIST标签筛选条件，可直接输入中文，或使用"$content['tag']"使用当前详情页的|
 |sql|分类范围|string|`空`|例如`"131 and 132 and 133"`and/or 必须配合 field 标签组合使用|
 |area|指定地区|string|`空`|指定地区分类ID，获取该地区内容列表|
-|image|获取|number|``| 默认获取所有，1获取带图内容|
+|image|获取带图内容|number|``| 默认获取所有，1获取带图内容|
 
 **字段**
 
