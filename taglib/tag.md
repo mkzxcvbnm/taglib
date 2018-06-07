@@ -14,7 +14,8 @@ $title"
 
 |参数名|别名|类型|默认值|说明|
 |:----:|:--:|:--:|:----:|:--:|
-|title|tag值|string|`必填`|可填写单个tag值或多个使用`,`逗号间隔|
+|title|tag值|string|``|可填写单个tag值或多个使用`,`逗号间隔 可为空，为空获取全站tag属性|
+|limit|显示数量|number|`10`||
 
 **字段**
 
@@ -22,13 +23,14 @@ $title"
 |:----:|:--:|
 |{$tag.url}|URL|
 |{$tag.title}|单个tag值|
+|{$tag.num}|tag出现次数|
 
 {% sample lang="php" %}
 **例子**
 
 ```html
 <yunu:tag title="测试标签1,测试标签2,测试标签3">
-     <a href="{$tag.url}"><span>{$tag.title}</span></a>
+     <a href="{$tag.url}"><span>{$tag.title}[{$tag.num}]</span></a>
 </yunu:tag>
 ```
 
