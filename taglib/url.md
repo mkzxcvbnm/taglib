@@ -15,12 +15,15 @@
 |:-:|:--:|:--:|
 |home|网站首页|生成网站首页网址|
 |search|搜索页面|生成搜索页面网址|
+|form|表单|表单提交URL|
+|Captcha|验证码|验证码URL|
 
 {% sample lang="php" %}
 **例子**
 
 ```html
 <yunu:url name="home">
+<img src="<yunu:url name='captcha' id='1'>" onclick="this.src='<yunu:url name='captcha' id='1'>'" />  id为表单id
 ```
 
 例子参数含义
