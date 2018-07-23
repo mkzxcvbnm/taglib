@@ -30,4 +30,5 @@
   * [date](taglib/function.md#date)
   * [str2sub](taglib/function.md#str2sub)
   * [str2arr](taglib/function.md#str2arr)
+  * [str2arr](taglib/function.md#str2img)
 
