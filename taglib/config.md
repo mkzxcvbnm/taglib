@@ -30,6 +30,7 @@
 |wap_logo|手机网站LOGO|同上|
 |wap_copyright|手机版权信息|同上|
 |wap_levelurl|手机二级域名|同上|
+|site_ico|网站ICO上传|-|
 
 {% sample lang="php" %}
 **例子**
