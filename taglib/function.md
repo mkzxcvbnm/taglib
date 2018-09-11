@@ -177,6 +177,6 @@ $content.mulimg|str2arr='***'
 
 **解释**
 
->获取上传的第三张图片
+> 获取上传的第三张图片
 
 {% endmethod %}
