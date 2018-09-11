@@ -161,12 +161,22 @@ $content.mulimg|str2arr='***'
 
 {% method %}
 
+## 参数
+
+|参数位置|别名|类型|默认值|说明|
+|:------:|:--:|:--:|:----:|:--:|
+|1|图片序号|number|`1`|数字几就获取第几张图片|
+
 {% sample lang="php" %}
 
 **例子**
 
 ```html
-{$content.content|str2img}
+{$content.content|str2img='3'}
 ```
+
+**解释**
+
+>获取上传的第三张图片
 
 {% endmethod %}

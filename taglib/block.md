@@ -10,6 +10,7 @@
 |name|标题|string|`必填`|自定义块名称|
 |infolen|内容长度|number|`0`|`0`-不截取 **注意：**图片或丰富类型自定义块勿使用此属性|
 |textflag|内容类型|bool|`false`|`true`-输出为img `false`-输出内容|
+|url|url|string|``| |
 
 {% sample lang="php" %}
 **例子**
