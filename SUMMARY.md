@@ -19,6 +19,7 @@
 * [tag](taglib/tag.md)
 * [form](taglib/form.md)
 * [field](taglib/field.md)
+* [info](taglib/info.md)
 
 ## 其他标签
 
