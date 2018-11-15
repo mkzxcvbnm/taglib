@@ -31,6 +31,7 @@
 |wap_copyright|手机版权信息|同上|
 |wap_levelurl|手机二级域名|同上|
 |site_ico|网站ICO上传|-|
+|pcurl|手机页面获取当前页面对应PC链接|-|
 
 {% sample lang="php" %}
 **例子**
