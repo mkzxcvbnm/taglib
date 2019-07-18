@@ -15,10 +15,10 @@
 **例子**
 
 ```html
-<yunu:block name="文字自定义块1" infolen="100"></yunu:block>
-<yunu:block name="丰富自定义块1"></yunu:block>
-<yunu:block name="图片自定义块1" textflag="1"></yunu:block>
-<img class="" src="<yunu:block name="图片自定义块2"></yunu:block>" alt="">
+<yunu:block name="文字自定义块1" infolen="100" />
+<yunu:block name="丰富自定义块1" />
+<yunu:block name="图片自定义块1" textflag="1" />
+<img class="" src="<yunu:block name="图片自定义块2" />" alt="">
 ```
 
 例子参数含义
