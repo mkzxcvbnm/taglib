@@ -14,6 +14,7 @@
 |limit|显示数量|number|`10`|&nbsp;|
 |type|只读取当前地区信息|string|`group`|`group`-梯度显示 `current`-当前地区  `level`-平级|
 |conurl|生成|number|`0`|`0`-根据当前页面自动生成URL `1`-根据首页URL情况生成|
+|topzm|头字母|string|`空`|根据地区首字母筛选地区列表|
 
 **字段**
 
@@ -27,6 +28,9 @@
 |{$area.istop}|推荐|
 |{$area.iscon}|独立内容|
 |{$area.isurl}|二级域名|
+|{$area.seo_title}|地区SEO标题|
+|{$area.seo_keywords}|地区SEO关键词|
+|{$area.seo_description}|地区SEO描述|
 
 {% sample lang="php" %}
 **例子**
