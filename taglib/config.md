@@ -40,4 +40,13 @@
 ```html
 <yunu:config name="seo_title">
 ```
+
+> Config中的name支持多个name同时请求
+
+**示例**
+
+```
+http://www.yunucms.cn/index.php/api/config?name=seo_title*seo_keywords*seo_description
+```
+
 {% endmethod %}
