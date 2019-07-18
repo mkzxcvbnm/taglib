@@ -24,6 +24,11 @@ $title"
 |{$tag.url}|URL|
 |{$tag.title}|单个tag值|
 |{$tag.num}|tag出现次数|
+|{$title}|tag|
+|{$tag.url}|tag页面URL|
+|{$tag.seo_title}|tag自定义SEO标题|
+|{$tag.seo_keywords}|tag自定义SEO关键词|
+|{$tag.seo_description}|tag自定义SEO描述|
 
 {% sample lang="php" %}
 **例子**
