@@ -7,13 +7,13 @@
 |标题|{$content.title}|
 |副标题|{$content.ftitle}|
 |缩略图|{$content.pic}|
-|简介截取|{$content.desc|str2sub=60, true}|
-|内容截取|{$content.content|str2sub=60, true}|
+|简介截取|{$content.desc\|str2sub=60, true}|
+|内容截取|{$content.content\|str2sub=60, true}|
 |来源|{$content.source}|
 |作者|{$content.author}|
 |浏览量|{$content.click}|
-|创建时间|{$content.create_time|date='Y-m-d',###}|
-|更新时间|{$content.update_time|date='Y-m-d',###}|
+|创建时间|{$content.create_time\|date='Y-m-d',###}|
+|更新时间|{$content.update_time\|date='Y-m-d',###}|
 |链接|{$content.url}|
 |上一篇|{$content.prev}|
 |下一篇|{$content.next}|
