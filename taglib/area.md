@@ -18,19 +18,12 @@
 
 **字段**
 
-|字段名|别名|
-|:----:|:--:|
-|{$area.title}|名称|
-|{$area.stitle}|缩写|
-|{$area.etitle}|英文|
-|{$area.sort}|排序|
-|{$area.pid}|上级|
-|{$area.istop}|推荐|
-|{$area.iscon}|独立内容|
-|{$area.isurl}|二级域名|
-|{$area.seo_title}|地区SEO标题|
-|{$area.seo_keywords}|地区SEO关键词|
-|{$area.seo_description}|地区SEO描述|
+|别名|调用代码|
+|:--:|:--:|
+|名称|{$area.title}|
+|副标题|{$area.stitle}|
+|封面图|{$area.etitle}|
+|链接|{$area.url}|
 
 {% sample lang="php" %}
 **例子**

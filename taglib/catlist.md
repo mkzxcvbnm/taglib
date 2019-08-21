@@ -14,35 +14,13 @@
 
 **字段**
 
-|字段名|别名|
-|:----:|:--:|
-|{$catlist.id}|ID|
-|{$catlist.title}|分类名称|
-|{$catlist.etitle}|别名|
-|{$catlist.subtitle}|副标题|
-|{$catlist.pid}|上级分类|
-|{$catlist.mid}|所属模型|
-|{$catlist.pic}|封面照片|
-|{$catlist.seo_title}|SEO标题|
-|{$catlist.seo_keyword}|SEO关键词|
-|{$catlist.seo_desc}|SEO描述|
-|{$catlist.jumpurl}|外部链接|
-|{$catlist.tpl_cover}|封面模版|
-|{$catlist.tpl_list}|列表模板|
-|{$catlist.tpl_show}|内容模版|
-|{$catlist.sort}|排序|
-|{$catlist.status}|状态|
-|{$catlist.target}|是否新窗口|
-|{$catlist.nav}|导航模式|
-|{$catlist.desc}|栏目简介|
-|{$catlist.content}|栏目内容|
-|{$catlist.cover}|栏目属性|
-
-**附加字段**
-
-|字段名|别名|
-|:----:|:--:|
-|{$catlist.child}|子栏目|
+|别名|调用代码|
+|:--:|:--:|
+|栏目名称|{$catlist.title}|
+|栏目副标题|{$catlist.subtitle}|
+|栏目封面图|{$catlist.pic}|
+|栏目链接|{$catlist.url}|
+|栏目子栏目|{$catlist.child}|
 
 {% sample lang="php" %}
 **例子**

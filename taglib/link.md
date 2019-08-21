@@ -14,15 +14,11 @@
 
 **字段**
 
-|字段名|别名|
-|:----:|:--:|
-|{$link.id}|ID|
-|{$link.title}|标题|
-|{$link.pic}|图片|
-|{$link.url}|链接|
-|{$link.sort}|排序|
-|{$link.type}|类型|
-|{$link.area}|所属地区|
+|别名|调用代码|
+|:--:|:--:|
+|名称|{$link.title}|
+|图片|{$link.pic}|
+|链接|{$link.url}|
 
 {% sample lang="php" %}
 **例子**

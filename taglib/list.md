@@ -23,50 +23,20 @@
 
 **字段**
 
-|字段名|别名|
-|:----:|:--:|
-|{$list.id}|ID|
-|{$list.cid}|栏目ID|
-|{$list.mid}|模型ID|
-|{$list.title}|标题|
-|{$list.jumpurl}|外链|
-|{$list.etitle}|别名|
-|{$list.click}|浏览量|
-|{$list.vid}|更多字段ID|
-|{$list.sort}|排序|
-|{$list.istop}|推荐|
-|{$list.create_time}|创建时间|
-|{$list.update_time}|更新时间|
-|{$list.aid}|管理员ID|
-|{$list.seo_title}|SEO标题|
-|{$list.seo_keywords}|SEO关键词|
-|{$list.seo_desc}|SEO描述|
-|{$list.area}|城市|
-
-**附加字段**
-
-|字段名|别名|
-|:----:|:--:|
-|{$list.alltitle}|标题全称|
-|{$list.url}|链接地址|
-
-**产品模型字段**
-
-|字段名|别名|
-|:----:|:--:|
-|{$list.pic}|缩略图|
-|{$list.price}|价格|
-|{$list.desc}|简介|
-|{$list.content}|内容|
-
-**文字模型字段**
-
-|字段名|别名|
-|:----:|:--:|
-|{$list.source}|来源|
-|{$list.author}|作者|
-|{$list.desc}|简介|
-|{$list.content}|内容|
+|别名|调用代码|
+|:--:|:--:|
+|标题|{$list.title}|
+|副标题|{$list.ftitle}|
+|缩略图|{$list.pic}|
+|多图第一张|{$list.content|str2img='1'}|
+|简介截取|{$list.desc|str2sub=60, true}|
+|内容截取|{$list.content|str2sub=60, true}|
+|来源|{$list.source}|
+|作者|{$list.author}|
+|浏览量|{$list.click}|
+|创建时间|{$list.create_time|date='Y-m-d',###}|
+|更新时间|{$list.update_time|date='Y-m-d',###}|
+|链接|{$list.url}|
 
 **自定义模型字段**
 >**自定义模型字段在 后台 > 系统管理 > 模型管理 > 字段管理 中查看**

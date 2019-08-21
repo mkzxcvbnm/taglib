@@ -13,15 +13,12 @@
 
 **字段**
 
-|字段名|别名|
-|:----:|:--:|
-|{$banner.id}|ID|
-|{$banner.title}|幻灯片名称|
-|{$banner.pic}|主图片|
-|{$banner.fpic}|副图片|
-|{$banner.url}|链接|
-|{$banner.sort}|排序|
-|{$banner.type}|类型|
+|别名|调用代码|
+|:--:|:--:|
+|幻灯片名称|{$banner.title}|
+|主图|{$banner.pic}|
+|副图|{$banner.fpic}|
+|链接|{$banner.url}|
 
 {% sample lang="php" %}
 **例子**

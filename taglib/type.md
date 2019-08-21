@@ -13,29 +13,13 @@
 
 **字段**
 
-|字段名|别名|
-|:----:|:--:|
-|{$type.id}|ID|
-|{$type.title}|分类名称|
-|{$type.etitle}|别名|
-|{$type.subtitle}|副标题|
-|{$type.pid}|上级分类|
-|{$type.mid}|所属模型|
-|{$type.pic}|封面照片|
-|{$type.seo_title}|SEO标题|
-|{$type.seo_keyword}|SEO关键词|
-|{$type.seo_desc}|SEO描述|
-|{$type.jumpurl}|外部链接|
-|{$type.tpl_cover}|封面模版|
-|{$type.tpl_list}|列表模板|
-|{$type.tpl_show}|内容模版|
-|{$type.sort}|排序|
-|{$type.status}|状态|
-|{$type.target}|是否新窗口|
-|{$type.type}|导航模式|
-|{$type.desc}|栏目简介|
-|{$type.content}|栏目内容|
-|{$type.cover}|栏目属性|
+|别名|调用代码|
+|:--:|:--:|
+|栏目名称|{$type.title}|
+|栏目副标题|{$type.subtitle}|
+|栏目封面图|{$type.pic}|
+|栏目链接|{$type.url}|
+|栏目子栏目|{$type.child}|
 
 {% sample lang="php" %}
 **例子**
