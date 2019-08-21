@@ -28,14 +28,14 @@
 |标题|{$list.title}|
 |副标题|{$list.ftitle}|
 |缩略图|{$list.pic}|
-|多图第一张|`{$list.content\|str2img='1'}`|
-|简介截取|`{$list.desc\|str2sub=60, true}`|
-|内容截取|`{$list.content\|str2sub=60, true}`|
+|多图第一张|{$list.content&#124;str2img='1'}|
+|简介截取|{$list.desc&#124;str2sub=60, true}|
+|内容截取|{$list.content&#124;str2sub=60, true}|
 |来源|{$list.source}|
 |作者|{$list.author}|
 |浏览量|{$list.click}|
-|创建时间|`{$list.create_time\|date='Y-m-d',###}`|
-|更新时间|`{$list.update_time\|date='Y-m-d',###}`|
+|创建时间|{$list.create_time&#124;date='Y-m-d',###}|
+|更新时间|{$list.update_time&#124;date='Y-m-d',###}|
 |链接|{$list.url}|
 
 **自定义模型字段**
