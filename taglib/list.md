@@ -34,6 +34,8 @@
 |来源|{$list.source}|
 |作者|{$list.author}|
 |浏览量|{$list.click}|
+|创建时间|{$list.create_time&#124;date='Y-m-d'}|
+|更新时间|{$list.update_time&#124;date='Y-m-d'|
 |链接|{$list.url}|
 
 **自定义模型字段**
