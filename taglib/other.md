@@ -12,8 +12,8 @@
 |来源|{$content.source}|
 |作者|{$content.author}|
 |浏览量|{$content.click}|
-|创建时间|{$content.create_time\|date='Y-m-d',###}|
-|更新时间|{$content.update_time\|date='Y-m-d',###}|
+|创建时间|{$content.create_time\|date='Y-m-d',\#\#\#}|
+|更新时间|{$content.update_time\|date='Y-m-d',\#\#\#}|
 |链接|{$content.url}|
 |上一篇|{$content.prev}|
 |下一篇|{$content.next}|
