@@ -16,6 +16,7 @@ $title"
 |:----:|:--:|:--:|:----:|:--:|
 |title|tag值|string|``|可填写单个tag值或多个使用`,`逗号间隔 可为空，为空获取全站tag属性|
 |limit|显示数量|number|`10`|&nbsp;|
+|tag|tag|number|`1`|默认获取站内内容tag统计，为2，获取tag管理内的tag信息|
 
 **字段**
 
