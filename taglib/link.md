@@ -10,7 +10,7 @@
 |type|类型|number|`1`|`1`-首页 `2`-内页 `3`-其他|
 |orderby|排序|string|`id desc`|`asc`-正序 `desc`-倒序|
 |limit|显示数量|number|`10`||
-|flag|标示|bool|`false`|`true`-有图片 `false`-无图片|
+|flag|标示|bool|`不限制`|`true`-有图片 `false`-无图片|
 
 **字段**
 
