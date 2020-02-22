@@ -24,7 +24,7 @@
 **例子**
 
 ```html
-<yunu:link type="1" limit="35" orederby="sort desc" flag="1" >
+<yunu:link type="1" limit="35" orderby="sort desc" flag="1" >
 <a href="{$link.url}"><img src="{$link.pic}" alt="{$link.title}"></a>
 </yunu:link>
 ```
